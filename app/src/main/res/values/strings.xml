@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">FragmentSample</string>
     <string name="fragment">这是我的第一个fragment</string>
+    <string name="lifecycle">fragment生命周期体验</string>
 </resources>

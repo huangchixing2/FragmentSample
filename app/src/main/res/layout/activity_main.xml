@@ -5,17 +5,17 @@
     android:orientation="vertical">
 
     <!--静态加载fragment-->
-    <!--<fragment-->
-        <!--android:id="@+id/fragment_one"-->
-        <!--android:name="com.example.admin.fragmentsample.FirstFragment"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"/>-->
-    <!--动态加载fragment-->
-    <FrameLayout
-        android:id="@+id/fragment_container"
+    <fragment
+        android:id="@+id/fragment_one"
+        android:name="com.example.admin.fragmentsample.LifeCycleFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </FrameLayout>
+        android:layout_height="wrap_content"/>
+    动态加载fragment
+    <!--<FrameLayout-->
+        <!--android:id="@+id/fragment_container"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+    <!--</FrameLayout>-->
 
 
 </android.support.constraint.ConstraintLayout>
